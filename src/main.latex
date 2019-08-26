@@ -26,6 +26,7 @@
 % epigraphs
 \usepackage{epigraph}
 \setlength{\epigraphrule}{0pt}
+\setlength{\epigraphwidth}{3.8cm}
 
 % increased letter spacing
 \usepackage{soulutf8}
