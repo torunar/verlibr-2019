@@ -1,12 +1,17 @@
-\documentclass[14pt,a4paper]{extarticle}
+\documentclass[14pt,a4paper,twoside]{extarticle}
 
 % package parameters
-\usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2.1cm,bindingoffset=0cm,footskip=0.7cm]{geometry}
 
 % parapgraph indents
 \usepackage{indentfirst}
 \setlength\parindent{1.24cm}
 \renewcommand{\rmdefault}{ftm}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\small- \thepage -}
 
 % fonts
 \usepackage[utf8]{inputenc}
